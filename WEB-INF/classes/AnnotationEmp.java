@@ -5,5 +5,6 @@ import java.lang.annotation.*;
 @Target(ElementType.METHOD)
 
 public @interface AnnotationEmp {
+    
     String value() default " ";
 }
